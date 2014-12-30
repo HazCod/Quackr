@@ -54,7 +54,7 @@ var QuestionView = function (data) {
         // View constructor
         if (app.loggedin == true){
             //Show all categories
-            log('Loading question..');
+            log('Loading questionview... (catid ' + data + ')');
             result = app.model.getRandomQuestion(data);
             if (result){
                 log('This will be filled in:');
